@@ -1,0 +1,8 @@
+These are the answers for Questions in Step 4:
+
+1. The max number of processes in XINU is 8. Defined in process.h
+2. Illegal PID is PID less than 0. Defined in process.h-> Inline function isbadpid()
+3. Default stack size is 65536 bits which is 8Kb.  Defined in process.h as INITSTK
+5. When main process is called, the shell is created. 
+4&6 -> In paper. 
+
